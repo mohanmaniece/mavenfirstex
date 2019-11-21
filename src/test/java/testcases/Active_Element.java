@@ -18,5 +18,6 @@ public class Active_Element {
 
 		driver.switchTo().activeElement().sendKeys("Poojai"+Keys.ENTER);
 		System.out.println("first committ");
+		System.out.println("third committ");
 	}
 }
