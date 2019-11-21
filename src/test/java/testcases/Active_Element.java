@@ -17,5 +17,6 @@ public class Active_Element {
 		driver.manage().window().maximize();
 
 		driver.switchTo().activeElement().sendKeys("Poojai"+Keys.ENTER);
+		System.out.println("first committ");
 	}
 }
